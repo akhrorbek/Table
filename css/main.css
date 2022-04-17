@@ -392,4 +392,27 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  border-collapse: collapse;
+}
+
+.table__hero {
+  border-collapse: collapse;
+}
+
+.table__head-data, .table__data {
+  border: 1px solid black;
+  padding: 15px 40px;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,1 +1,14 @@
 //BU YERDA SYTIMIZNI HERO QISMIGA ISHLOV BERILADI
+.table {
+
+    &__hero {
+        border-collapse: collapse;
+    }
+
+    &__head-data,
+    &__data {
+        border: 1px solid black;
+        padding:15px 40px;
+        text-align: center;
+    }
+}

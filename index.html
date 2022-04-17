@@ -1,18 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Table</title>
 </head>
+
 <body>
     <!--HEAD-->
     <header></header>
     <!--MAIN-->
-    <main></main>
+    <main class="table">
+        <div class="container">
+            <table class="table__hero">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th rowspan="2" class="table__head-data">№</th>
+                        <th rowspan="2" class="table__head-data">Client</th>
+                        <th rowspan="2" class="table__head-data">Tovar</th>
+                        <th rowspan="2" class="table__head-data">Status</th>
+                        <th colspan="2" class="table__head-data">Umumiy xarajatlar:</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__head-data">Xizmat xar</th>
+                        <th class="table__head-data">Yo'l xar</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="table__row">
+                        <td class="table__data">2</td>
+                        <td class="table__data">Ibrohim Ali</td>
+                        <td class="table__data">Gilam</td>
+                        <td class="table__data">Yuvishda</td>
+                        <td class="table__data">300.000</td>
+                        <td class="table__data">14.000</td>
+                    </tr>
+                    <tr class="tble__row">
+                        <td class="table__data">3</td>
+                        <td class="table__data">Shuxratbek</td>
+                        <td class="table__data">Parda</td>
+                        <td class="table__data">Quritishda</td>
+                        <td class="table__data">300.000</td>
+                        <td class="table__data">14.000</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__data">4</td>
+                        <td class="table__data">Farrux</td>
+                        <td class="table__data">Sholcha</td>
+                        <td class="table__data">Yetkazishda</td>
+                        <td class="table__data">300.000</td>
+                        <td class="table__data">14.000</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td colspan="4" class="table__data">Ja'mi</td>
+                        <td colspan="2" class="table__data">1000.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
     <!--FOOTER-->
     <footer></footer>
 </body>
+
 </html>
